@@ -53,19 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    public void OnClickColor(View v){
 
-        if(i==0)
-            buttonRes.setBackgroundColor(rgb(230,0,0));
-        if(i==1)
-            buttonRes.setBackgroundColor(rgb(255,255,25));
-        if(i==2)
-            buttonRes.setBackgroundColor(rgb(64,255,25));
-        i++;
-        if(i>2) {
-            i = 0;
-        }
-    }
 
     protected void onSaveInstanceState(Bundle savedInstanceState){
         super.onSaveInstanceState(savedInstanceState);
