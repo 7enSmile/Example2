@@ -14,7 +14,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginBottom="32dp"
-        android:text="Результат"
+        android:text="@string/result"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/text1Tck"
         app:layout_constraintStart_toStartOf="parent" />
@@ -50,7 +50,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="200dp"
-        android:text="1 точка"
+        android:text="@string/first_tchk"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -87,7 +87,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="20dp"
         android:onClick="OnClickRes"
-        android:text="Рассчет"
+        android:text="@string/get_result"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewY2" />
 
@@ -122,7 +122,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="332dp"
-        android:text="2 точка"
+        android:text="@string/second_tchk"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -153,12 +153,12 @@
 
     <TextView
         android:id="@+id/textName"
-        android:layout_width="288dp"
-        android:layout_height="82dp"
+        android:layout_width="352dp"
+        android:layout_height="101dp"
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
         android:layout_marginTop="21dp"
-        android:text="Рассчет расстояния между точками"
+        android:text="@string/name_in_app"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
